@@ -1,143 +1,197 @@
-  <!-- Imagen añadida con informacion -->
-    <div class="card" style="width: 18rem;">
-        <img src="Oklahoma.jpg" class="card-img-top" alt="Oklahoma">
-        <div class="card-body">
-            <h5 class="card-title">Just one</h5>
-            <p class="card-text">Añadiendo informacion sobre mi</p>
-            <a href="https://www.youtube.com/watch?v=uLD4XV9bIFI" target="_blank" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
+<!-- git init, git add ., git status, git commit -m "", git push origin Development -->
 
+<!-- Imagen añadida con informacion -->
+<div class="card" style="width: 18rem">
+  <img src="Oklahoma.jpg" class="card-img-top" alt="Oklahoma" />
+  <div class="card-body">
+    <h5 class="card-title">Just one</h5>
+    <p class="card-text">Añadiendo informacion sobre mi</p>
+    <a
+      href="https://www.youtube.com/watch?v=uLD4XV9bIFI"
+      target="_blank"
+      class="btn btn-primary"
+      >Go somewhere</a
+    >
+  </div>
+</div>
 
-
-       <!-- Bloque de informacion con boton desplegable intermedio -->
-       <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    Accordion Item #1
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                    plugin adds the appropriate classes that we use to style each element. These classes control the
-                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-                    this with custom CSS or overriding our default variables. It's also worth noting that just about any
-                    HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Accordion Item #2
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Accordion Item #3
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <main>
-        <h1>Esta pagina Web es una practica parcial de Programacion...</h1>
-        <h2>Mi nombre es Leandro Nicolas Vera;</h2>
-        <h3>Estudio Desarrolo de Software;</h3>
-        <h4>Si deseas saber mas;</h4>
-        <h5>Este es el lugar;</h5>
-        <h6><a href="aboutme.html"><button type="button" class="btn btn-outline-primary">Know more</button></a></h6>
-    </main>
- 
-    <div class="card">
-        <div class="card-body">
-          This is some text within a card body.
-        </div>
-      </div>
-  
-  
-      
-    <!-- Cuadros de textos con imagen -->
-    <div class="d-flex justify-content-around align-items-center">
-        <div class="card col-3">
-          <img src="yo.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Informacion Personal</h5>
-            <p class="card-text">
-              Aca podras encontrar informacion personal para conocerme, como soy y
-              cuales son mis preferencias.
-            </p>
-            <a href="aboutme.html" class="btn btn-primary">Saber mas</a>
-          </div>
-        </div>
-        <div class="card col-3">
-          <img src="skills.png" class="card-img-top" />
-          <div class="card-body">
-            <h5 class="card-title">Mis habilidades</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="skills.html" class="btn btn-primary">Saber mas</a>
-          </div>
-        </div>
-        <div class="card col-3">
-          <img src="Persona-programando.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Lenguajes</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="lenguagelearn.html" class="btn btn-primary">Saber mas</a>
-          </div>
-        </div>
-      </div>
-  
-
-
-      <!-- nueva opcion -->
-<div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="curry.png" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
+<!-- Bloque de informacion con boton desplegable intermedio -->
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseOne"
+        aria-expanded="true"
+        aria-controls="collapseOne"
+      >
+        Accordion Item #1
+      </button>
+    </h2>
+    <div
+      id="collapseOne"
+      class="accordion-collapse collapse show"
+      data-bs-parent="#accordionExample"
+    >
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by
+        default, until the collapse plugin adds the appropriate classes that we
+        use to style each element. These classes control the overall appearance,
+        as well as the showing and hiding via CSS transitions. You can modify
+        any of this with custom CSS or overriding our default variables. It's
+        also worth noting that just about any HTML can go within the
+        <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
     </div>
   </div>
-  
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseTwo"
+        aria-expanded="false"
+        aria-controls="collapseTwo"
+      >
+        Accordion Item #2
+      </button>
+    </h2>
+    <div
+      id="collapseTwo"
+      class="accordion-collapse collapse"
+      data-bs-parent="#accordionExample"
+    >
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden
+        by default, until the collapse plugin adds the appropriate classes that
+        we use to style each element. These classes control the overall
+        appearance, as well as the showing and hiding via CSS transitions. You
+        can modify any of this with custom CSS or overriding our default
+        variables. It's also worth noting that just about any HTML can go within
+        the <code>.accordion-body</code>, though the transition does limit
+        overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseThree"
+        aria-expanded="false"
+        aria-controls="collapseThree"
+      >
+        Accordion Item #3
+      </button>
+    </h2>
+    <div
+      id="collapseThree"
+      class="accordion-collapse collapse"
+      data-bs-parent="#accordionExample"
+    >
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden
+        by default, until the collapse plugin adds the appropriate classes that
+        we use to style each element. These classes control the overall
+        appearance, as well as the showing and hiding via CSS transitions. You
+        can modify any of this with custom CSS or overriding our default
+        variables. It's also worth noting that just about any HTML can go within
+        the <code>.accordion-body</code>, though the transition does limit
+        overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+<main>
+  <h1>Esta pagina Web es una practica parcial de Programacion...</h1>
+  <h2>Mi nombre es Leandro Nicolas Vera;</h2>
+  <h3>Estudio Desarrolo de Software;</h3>
+  <h4>Si deseas saber mas;</h4>
+  <h5>Este es el lugar;</h5>
+  <h6>
+    <a href="aboutme.html"
+      ><button type="button" class="btn btn-outline-primary">
+        Know more
+      </button></a
+    >
+  </h6>
+</main>
+
+<div class="card">
+  <div class="card-body">This is some text within a card body.</div>
+</div>
+
+<!-- Cuadros de textos con imagen -->
+<div class="d-flex justify-content-around align-items-center">
+  <div class="card col-3">
+    <img src="yo.png" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Informacion Personal</h5>
+      <p class="card-text">
+        Aca podras encontrar informacion personal para conocerme, como soy y
+        cuales son mis preferencias.
+      </p>
+      <a href="aboutme.html" class="btn btn-primary">Saber mas</a>
+    </div>
+  </div>
+  <div class="card col-3">
+    <img src="skills.png" class="card-img-top" />
+    <div class="card-body">
+      <h5 class="card-title">Mis habilidades</h5>
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </p>
+      <a href="skills.html" class="btn btn-primary">Saber mas</a>
+    </div>
+  </div>
+  <div class="card col-3">
+    <img src="Persona-programando.png" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Lenguajes</h5>
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </p>
+      <a href="lenguagelearn.html" class="btn btn-primary">Saber mas</a>
+    </div>
+  </div>
+</div>
+
+<!-- nueva opcion -->
+<div class="card mb-3" style="max-width: 540px">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="curry.png" class="img-fluid rounded-start" alt="..." />
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+        <p class="card-text">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- intro parte 1 -->
+<main>
+  <article class="container">
+    <section class="position-relative">
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <div><h1>Leandro Vera</h1></div>
+      </div>
+    </section>
+  </article>
+</main>

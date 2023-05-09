@@ -1,0 +1,27 @@
+main {
+    height: 100vh;
+    background-color: gold
+} 
+article {
+    height: 100vh;
+}
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+nav {
+    height: 100vh;
+    background-color: gold;
+    color: black;
+}
+footer {
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: gold;
+}
+.btn {
+    color: gold;
+    font-size: xx-large;
+}

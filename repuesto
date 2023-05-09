@@ -66,3 +66,15 @@
             </div>
         </div>
     </div>
+
+
+
+    <main>
+        <h1>Esta pagina Web es una practica parcial de Programacion...</h1>
+        <h2>Mi nombre es Leandro Nicolas Vera;</h2>
+        <h3>Estudio Desarrolo de Software;</h3>
+        <h4>Si deseas saber mas;</h4>
+        <h5>Este es el lugar;</h5>
+        <h6><a href="aboutme.html"><button type="button" class="btn btn-outline-primary">Know more</button></a></h6>
+    </main>
+ 

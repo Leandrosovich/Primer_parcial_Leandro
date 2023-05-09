@@ -1,60 +1,109 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="universal_style.css"> <!-- Bootstrap vinculado -->
-    <link rel="Website Icon" type="png" href="curry.png">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="universal_style.css" />
+    <!-- Bootstrap vinculado -->
+    <link rel="Website Icon" type="png" href="curry.png" />
+  </head>
 
-
-<body>
-    <!-- Barra navegacion/orientacion -->
-    <nav class="navbar navbar-expand-md bg-body-tertiary p-0">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="Inicio.html">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="Inicio.html">Main menu</a>
-                    <a class="nav-link" href="aboutme.html">About me</a>
-                    <a class="nav-link" href="skills.html">Skills</a>
-                </div>
+  <body>
+    <header>
+      <!-- Barra navegacion/orientacion -->
+     <nav class="navbar navbar-expand-md bg-body-tertiary p-0">
+       <div class="container-fluid">
+        <a class="navbar-brand" href="Inicio.html">PORTFOLIO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="Inicio.html"
+              >Menu Principal
+            </a>
+            <a class="nav-link" href="aboutme.html">Contacto</a>
+            <div class="dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >Otros
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </nav>
-    <!-- Cuadros de textos con imagen -->
-    <div class="d-flex justify-content-around align-items-center">
-        <div class="card col-3">
-            <img src="yo.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Informacion Personal</h5>
-              <p class="card-text">Aca podras encontrar informacion personal para conocerme, como soy y cuales son mis preferencias.</p>
-              <a href="aboutme.html" class="btn btn-primary">Saber mas</a>
-            </div>
-          </div>
-          <div class="card col-3">
-            <img src="skills.png" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Mis habilidades</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="skills.html" class="btn btn-primary">Saber mas</a>
-            </div>
-          </div>
-          <div class="card col-3">
-            <img src="Persona-programando.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lenguajes</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="lenguagelearn.html" class="btn btn-primary">Saber mas</a>
-            </div>
-          </div>
+  </header>
+    <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
+      </div>
+    </div>
+     <!-- Cuadros de textos con imagen -->
+     <div class="d-flex justify-content-around align-items-center">
+      <div class="card col-3">
+        <img src="yo.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Informacion Personal</h5>
+          <p class="card-text">
+            Aca podras encontrar informacion personal para conocerme, como soy y
+            cuales son mis preferencias.
+          </p>
+          <a href="aboutme.html" class="btn btn-primary">Saber mas</a>
+        </div>
+      </div>
+      <div class="card col-3">
+        <img src="skills.png" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="card-title">Mis habilidades</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="skills.html" class="btn btn-primary">Saber mas</a>
+        </div>
+      </div>
+      <div class="card col-3">
+        <img src="Persona-programando.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Lenguajes</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="lenguagelearn.html" class="btn btn-primary">Saber mas</a>
+        </div>
+      </div>
     </div>
 
 
@@ -62,9 +111,10 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

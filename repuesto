@@ -146,18 +146,8 @@
       <h5 class="card-title">Mis habilidades</h5>
       <p class="card-text">
         Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-      </p>
-      <a href="skills.html" class="btn btn-primary">Saber mas</a>
-    </div>
-  </div>
-  <div class="card col-3">
-    <img src="Persona-programando.png" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Lenguajes</h5>
-      <p class="card-text">
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
+        of the card's content. class="card-text"> Some quick example text to
+        build on the card title and make up the bulk of the card's content.
       </p>
       <a href="lenguagelearn.html" class="btn btn-primary">Saber mas</a>
     </div>

@@ -16,11 +16,44 @@
   </head>
 
   <body>
+    <!-- offcanvas, pantalla de bienvenida -->
+    <div
+      class="offcanvas offcanvas-start show"
+      tabindex="-1"
+      id="offcanvas"
+      aria-labelledby="offcanvasLabel"
+    >
+      <div class="offcanvas-header bg-black">
+        <h5 class="offcanvas-title" id="offcanvasLabel">
+          <p class="idone">¡BIENVENIDO!</p>
+        </h5>
+        <button
+          type="button"
+          class="btn-close bg-warning"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body bg-black">
+        <p class="idone">
+          Esta pagina fue desarrollada con el fin de presentar un modelo
+          funcional de pagina web, para la asignatura Taller de lenguajes de
+          programacion del profesor Alejando Sanabria, a continuacion presento
+          un portfolio con informacion personal basica, seguida de habilidades y
+          lenguajes que me gustaria aprender. Es un modelo minimalista pero
+          atractivo, de facil entendimiento e interpretacion... Desde ya, que
+          disfrutes y Muchas Gracias!
+        </p>
+      </div>
+    </div>
+
     <header>
       <!-- Barra navegacion/orientacion -->
       <nav class="navbar navbar-expand-md bg-body-tertiary p-0">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="Inicio.html">PORTFOLIO</a>
+        <div class="container-fluid bg-black">
+          <a class="navbar-brand" href="Inicio.html"
+            ><h4 class="text-warning">PORTFOLIO</h4></a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -34,10 +67,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="Inicio.html"
-                >Menu Principal
+              <a class="nav-link active" aria-current="page" href="Inicio.html">
+                <h5 class="text-warning">Menu Principal</h5>
               </a>
-              <a class="nav-link" href="aboutme.html">Contacto</a>
+              <a class="nav-link" href="aboutme.html"
+                ><h5 class="text-warning">Contacto</h5></a
+              >
               <div class="dropdown">
                 <a
                   class="nav-link"
@@ -45,10 +80,11 @@
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  >Otros
+                >
+                  <h5 class="text-warning">Otros</h5>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-red" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li>
                     <a class="dropdown-item" href="#">Something else here</a>
@@ -60,71 +96,53 @@
         </div>
       </nav>
     </header>
-    <div
-      class="offcanvas offcanvas-start show"
-      tabindex="-1"
-      id="offcanvas"
-      aria-labelledby="offcanvasLabel"
-    >
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasLabel">¡BIENVENIDO!</h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">
-        Esta pagina fue desarrollada con el fin de presentar un modelo funcional
-        de pagina web, para la asignatura Taller de lenguajes de programacion
-        del profesor Alejando Sanabria, a continuacion presento un portfolio con
-        informacion personal basica, seguida de habilidades y lenjugajes que me
-        gustaria aprender. Es un modelo minimalista pero atractivo, de facil
-        entendimiento e interpretacion... Desde ya, Muchas Gracias!
-      </div>
-    </div>
+
     <!-- Cuadros de textos con imagen -->
     <div class="d-flex justify-content-around align-items-center">
-      <div class="card col-3">
-        <img src="/images/yo.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Informacion Personal</h5>
+      <div class="card col-3 bg-warning text-warning">
+        <img src="/images/supra2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black text-warning">
+          <h5 class="card-title">SOBRE MI</h5>
           <p class="card-text">
             Aca podras encontrar informacion personal para conocerme, como soy y
             cuales son mis preferencias.
           </p>
-          <a href="aboutme.html" class="btn btn-primary">Saber mas</a>
+          <a href="aboutme.html" class="btn btn-primary bg-warning text-black"
+            ><b>SABER MAS</b></a
+          >
         </div>
       </div>
-      <div class="card col-3">
-        <img src="/images/skills.png" class="card-img-top" />
-        <div class="card-body">
-          <h5 class="card-title">Mis habilidades</h5>
+      <div class="card col-3 bg-warning text-warning">
+        <img src="/images/supra1.jpg" class="card-img-top" />
+        <div class="card-body bg-black text-warning">
+          <h5 class="card-title">MIS HABILIDADES</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Pequeña descripcion sobre mis fortalezas y mis campos favoritos como
+            hobbies, gustos, etc.
           </p>
-          <a href="skills.html" class="btn btn-primary">Saber mas</a>
+          <a href="skills.html" class="btn btn-primary bg-warning text-black"
+            ><b>SABER MAS</b></a
+          >
         </div>
       </div>
-      <div class="card col-3">
-        <img
-          src="/images/Persona-programando.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Lenguajes</h5>
+      <div class="card col-3 bg-warning text-warning">
+        <img src="/images/supra3.1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black text-warning">
+          <h5 class="card-title">LENGUAJES</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Menciono lenguajes con los que estoy aprendiendo a usar y aquellos
+            que quiero aprender.
           </p>
-          <a href="lenguagelearn.html" class="btn btn-primary">Saber mas</a>
+          <a
+            href="lenguagelearn.html"
+            class="btn btn-primary bg-warning text-black"
+          >
+            <b>SABER MAS</b></a
+          >
         </div>
       </div>
     </div>
-
+    <footer><b>Leandro Vera, todos los derechos reservados © 2023</b></footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

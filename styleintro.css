@@ -25,3 +25,11 @@ footer {
     color: gold;
     font-size: xx-large;
 }
+footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}

@@ -1,0 +1,12 @@
+body {
+   background-image: url(/images/photo-1678282514430-1350ec121314.avif);
+}
+section {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+main {
+    height: 60vh;
+}

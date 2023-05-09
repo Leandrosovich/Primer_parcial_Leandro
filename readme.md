@@ -8,3 +8,4 @@ Descripicion sobre que hace la pagina en desarrollo.git
 
 1. Commit realizado por cambios y al header de la pagina.
 2. elaboracion de la introduccion a la pagina (Intro) finalizada.
+3. Finalizacion del inicio de la pagina.

@@ -101,10 +101,10 @@ footer {
     width: 260px;
     height: 290px;
     border: gold solid;
-    margin-top: 55px;
+    margin-top: 45px;
     margin-left: 0px;
     text-align: center;
-    padding-top: 23px;
+    padding-top: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gold;
     font-size: x-large;
@@ -114,7 +114,7 @@ footer {
     width: 480px;
     height: 300px;
     border: gold solid;
-    margin-top: 45px;
+    margin-top: 30px;
     margin-left: -20px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -126,15 +126,12 @@ footer {
     width: 260px;
     height: 290px;
     border: gold solid;
-    margin-top: 55px;
+    margin-top: 45px;
     margin-left: 0px;   
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gold;
     background-color: black;
     font-size: x-large;
-}
-.coder {
-
 }

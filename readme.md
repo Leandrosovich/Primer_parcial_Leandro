@@ -10,3 +10,7 @@ Descripicion sobre que hace la pagina en desarrollo.git
 2. elaboracion de la introduccion a la pagina (Intro) finalizada.
 3. Finalizacion del inicio de la pagina.
 4. elaboracion del aboutme en proceso.
+5. cambios importantes con respecto a la interfaz principal del inicio.
+6. inicializacion del sistema responsive.
+7. Finalizacion del desarrollo.
+   Gracias!

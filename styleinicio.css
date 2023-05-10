@@ -2,8 +2,6 @@ body {
     background-color:black;
     
 }
-
-
 .card {
     color: brown;
 }
@@ -75,7 +73,7 @@ footer {
 }
 .sub2 {
     width: 450px;
-    height: 55px;
+    height: 105px;
     border: black solid;
     margin-top: 7px;
     margin-left: 40px;
@@ -112,7 +110,7 @@ footer {
 }
 .inf2 {
     width: 480px;
-    height: 300px;
+    height: 250px;
     border: gold solid;
     margin-top: 30px;
     margin-left: -20px;
@@ -135,3 +133,15 @@ footer {
     background-color: black;
     font-size: x-large;
 }
+@media (max-width: 375px){
+    .caja2{         
+        width: 370px;}
+        .sub2 {
+            width: 220px;
+            height: 100px;
+        } 
+      .inf2{
+            width: 220px;
+            height: 400px;
+      } } 
+   

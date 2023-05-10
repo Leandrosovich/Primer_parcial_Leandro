@@ -236,3 +236,7 @@
     </div>
   </div>
 </div>
+
+.sub4 { width: 660px; height: 25px; border: black solid; margin-top: 7px;
+margin-left: 25px; } @media (max-width: 375px){ .caja2{ width: 370px;} .sub2 {
+width: 220px; height: 100px; } .inf2{ width: 220px; height: 400px; } }

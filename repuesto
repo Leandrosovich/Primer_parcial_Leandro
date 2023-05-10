@@ -185,3 +185,54 @@
     </section>
   </article>
 </main>
+
+<!-- Texto con imagen (inicio) -->
+<div class="card col-3 bg-warning text-warning">
+  <img src="/images/sky.jpg" class="card-img-top" />
+  <div class="card-body bg-black text-warning">
+    <h5 class="card-title">MIS HABILIDADES</h5>
+    <p class="card-text">
+      Pequeña descripcion sobre mis fortalezas y mis campos favoritos como
+      hobbies, gustos, etc.
+    </p>
+    <a href="skills.html" class="btn btn-primary bg-warning text-black"
+      ><b>SABER MAS</b></a
+    >
+  </div>
+</div>
+
+<!-- Cuadros de textos con imagen -->
+<div class="d-flex justify-content-around align-items-center">
+  <div class="card col-2 bg-warning text-warning">
+    <img src="/images/supra2.jpg" class="card-img-top" alt="..." />
+    <div class="card-body bg-black text-warning">
+      <h5 class="card-title">SOBRE MI</h5>
+      <p class="card-text">
+        <strong
+          >Aca podras encontrar informacion personal para conocerme, como soy y
+          cuales son mis preferencias.</strong
+        >
+      </p>
+      <a href="aboutme.html" class="btn btn-primary bg-warning text-black"
+        ><b class>SABER MAS</b></a
+      >
+    </div>
+  </div>
+
+  <div class="card col-2 bg-warning text-warning">
+    <img src="/images/supra3.1.jpg" class="card-img-top" alt="..." />
+    <div class="card-body bg-black text-warning">
+      <h5 class="card-title">LENGUAJES</h5>
+      <p class="card-text">
+        Menciono lenguajes con los que estoy aprendiendo a usar y aquellos que
+        quiero aprender, para desarrollarme en el oficio.
+      </p>
+      <a
+        href="lenguagelearn.html"
+        class="btn btn-primary bg-warning text-black"
+      >
+        <b>SABER MAS</b></a
+      >
+    </div>
+  </div>
+</div>

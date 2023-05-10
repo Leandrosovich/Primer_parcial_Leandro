@@ -1,12 +1,13 @@
 body {
-   background-image: url(/images/photo-1678282514430-1350ec121314.avif);
+   background-image: url(/images/colors.webp);
 }
 section {
-    height: 100vh;
+    height: 70vh;
     align-items: center;
     justify-content: center;
     display: flex;
 }
+
 main {
     height: 60vh;
 }

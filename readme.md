@@ -12,5 +12,5 @@ Descripicion sobre que hace la pagina en desarrollo.git
 4. elaboracion del aboutme en proceso.
 5. cambios importantes con respecto a la interfaz principal del inicio.
 6. inicializacion del sistema responsive.
-7. Finalizacion del desarrollo.
-   Gracias!
+7. Cambios en el inicio y aboutme.
+8. Rediseño de la interfaz de ambos html.

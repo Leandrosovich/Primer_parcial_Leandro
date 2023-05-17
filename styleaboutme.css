@@ -1,5 +1,5 @@
 body {
-   background: linear-gradient(black, gold)
+   background: linear-gradient(black, black)
 }
 section {
     height: 100vh;
@@ -12,4 +12,7 @@ main {
 }
 .irm {
     height: 70vh;
+} 
+html {
+    font-family: Jetbrains Mono;
 }

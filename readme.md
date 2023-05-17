@@ -14,3 +14,4 @@ Descripicion sobre que hace la pagina en desarrollo.git
 6. inicializacion del sistema responsive.
 7. Cambios en el inicio y aboutme.
 8. Rediseño de la interfaz de ambos html.
+9. Finalizacion

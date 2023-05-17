@@ -1,14 +1,14 @@
 body {
     background-color:black;
-    
+    font-family: Jetbrains Mono;
 }
 .card {
     color: brown;
 }
 .idone {
     color: gold;
-    font-size:larger;
-    font-family: Verdana;
+    font-size: 20px;
+    font-family: Jetbrains Mono;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -22,7 +22,7 @@ footer {
     align-items: center;
     display: flex;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Jetbrains Mono;
     font-size:x-small;
 }
 .container {
@@ -39,6 +39,7 @@ footer {
     height: 400px ;
     border: black solid;
     background: linear-gradient(gold, black);
+    font-family: Jetbrains Mono;
 }
 .caja2 {
     width: 533px;
@@ -69,7 +70,7 @@ footer {
     width: 1134px;
     height: 245px ;
     border:gold solid;
-    ;
+ 
 }
 .sub2 {
     width: 450px;

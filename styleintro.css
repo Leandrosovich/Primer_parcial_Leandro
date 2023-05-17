@@ -24,4 +24,6 @@ footer {
 .btn {
     color: gold;
     font-size: xx-large;
+} body {
+    font-family: Jetbrains Mono;
 }
